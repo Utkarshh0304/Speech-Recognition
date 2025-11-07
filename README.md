@@ -77,49 +77,49 @@ class VoiceGlobeApp(tk.Tk):
 
         # --- ATTRACTION DATABASE ---
         self.ATTRACTIONS_DB = {
-            'spanish': [
+            'Spanish': [
                 {'name': 'Alhambra (Granada, Spain)', 'wiki': 'https://en.wikipedia.org/wiki/Alhambra'},
                 {'name': 'Sagrada Família (Barcelona, Spain)', 'wiki': 'https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia'},
                 {'name': 'Caminito del Rey (Hidden Spot, Spain)', 'wiki': 'https://en.wikipedia.org/wiki/Caminito_del_Rey'},
             ],
-            'french': [
+            'French': [
                 {'name': 'Eiffel Tower (Paris, France)', 'wiki': 'https://en.wikipedia.org/wiki/Eiffel_Tower'},
                 {'name': 'Louvre Museum (Paris, France)', 'wiki': 'https://en.wikipedia.org/wiki/Louvre'},
                 {'name': 'Palais des Papes (Avignon, France)', 'wiki': 'https://en.wikipedia.org/wiki/Palais_des_Papes'},
                 {'name': 'Canal du Midi (Hidden Spot, France)', 'wiki': 'https://en.wikipedia.org/wiki/Canal_du_Midi'},
             ],
-            'japanese': [
+            'Japanese': [
                 {'name': 'Kinkaku-ji (Kyoto, Japan)', 'wiki': 'https://en.wikipedia.org/wiki/Kinkaku-ji'},
                 {'name': 'Fushimi Inari-taisha (Kyoto, Japan)', 'wiki': 'https://en.wikipedia.org/wiki/Fushimi_Inari-taisha'},
                 {'name': 'Omoide Yokocho (Hidden Spot, Tokyo)', 'wiki': 'https://en.wikipedia.org/wiki/Omoide_Yokocho'},
             ],
-            'italian': [
+            'Italian': [
                 {'name': 'Colosseum (Rome, Italy)', 'wiki': 'https://en.wikipedia.org/wiki/Colosseum'},
                 {'name': 'Uffizi Gallery (Florence, Italy)', 'wiki': 'https://en.wikipedia.org/wiki/Uffizi'},
                 {'name': 'Sassi di Matera (Hidden Spot, Italy)', 'wiki': 'https://en.wikipedia.org/wiki/Sassi_di_Matera'},
             ],
-             'german': [
+             'German': [
                 {'name': 'Neuschwanstein Castle (Germany)', 'wiki': 'https://en.wikipedia.org/wiki/Neuschwanstein_Castle'},
                 {'name': 'Brandenburg Gate (Berlin, Germany)', 'wiki': 'https://en.wikipedia.org/wiki/Brandenburg_Gate'},
                 {'name': 'Spreewald (Hidden Spot, Germany)', 'wiki': 'https://en.wikipedia.org/wiki/Spreewald'},
             ],
-            'hindi': [
+            'Hindi': [
                 {'name': 'Taj Mahal (Agra, India)', 'wiki': 'https://en.wikipedia.org/wiki/Taj_Mahal'},
                 {'name': 'Ghats in Varanasi (India)', 'wiki': 'https://en.wikipedia.org/wiki/Ghats_in_Varanasi'},
                 {'name': 'Chand Baori (Hidden Spot, Rajasthan)', 'wiki': 'https://en.wikipedia.org/wiki/Chand_Baori'},
             ],
-            'english': [
+            'English': [
                 {'name': 'Statue of Liberty (New York, USA)', 'wiki': 'https://en.wikipedia.org/wiki/Statue_of_Liberty'},
                 {'name': 'Grand Canyon (Arizona, USA)', 'wiki': 'https://en.wikipedia.org/wiki/Grand_Canyon'},
                 {'name': 'The Cotswolds (Scenic Area, UK)', 'wiki': 'https://en.wikipedia.org/wiki/Cotswolds'},
                 {'name': 'Salvation Mountain (Hidden Spot, USA)', 'wiki': 'https://en.wikipedia.org/wiki/Salvation_Mountain'},
             ],
-            'chinese': [
+            'Chinese': [
                 {'name': 'Great Wall of China (China)', 'wiki': 'https://en.wikipedia.org/wiki/Great_Wall_of_China'},
                 {'name': 'Terracotta Army (Xi\'an, China)', 'wiki': 'https://en.wikipedia.org/wiki/Terracotta_Army'},
                 {'name': 'Shaxi Ancient Town (Hidden Spot, Yunnan)', 'wiki': 'https://en.wikipedia.org/wiki/Shaxi,_Yunnan'},
             ],
-            'portuguese': [
+            'Portuguese': [
                 {'name': 'Christ the Redeemer (Rio, Brazil)', 'wiki': 'https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)'},
                 {'name': 'Pena Palace (Sintra, Portugal)', 'wiki': 'https://en.wikipedia.org/wiki/Pena_Palace'},
                 {'name': 'Benagil Cave (Hidden Spot, Portugal)', 'wiki': 'https://en.wikipedia.org/wiki/Benagil'},
