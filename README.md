@@ -190,7 +190,7 @@ class VoiceGlobeApp(tk.Tk):
             (" VOICE INPUT", self.voice_input, 'secondary'),
             (" SPEAK", self.threaded_speak_output, 'secondary'),
             (" CLEAR", self.clear_text, 'secondary'),
-            (" EXPLORE ✈️", self.show_recommendations, 'primary'),
+            (" EXPLORE", self.show_recommendations, 'primary'),
         ]
 
         self.buttons = [] # Clear the list first
